@@ -1,18 +1,23 @@
 import React, { useState } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css'; // Add custom styles if needed
+import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
+import './App.css'; // Add custom styles 
 
 function App() {
+   // State to manage the cart items
   const [cart, setCart] = useState([]);
-
+ // Function to add or remove items from the cart
   const handleCartChange = (item) => {
     if (cart.some(cartItem => cartItem.id === item.id)) {
+      // Remove item from cart if it's already there
+
       setCart(cart.filter(cartItem => cartItem.id !== item.id));
     } else {
+
+      // Add item to the cart
       setCart([...cart, item]);
     }
   };
-
+// Array of products with descriptions, prices, and sale prices
   const items = [
     { id: 1, name: 'Elegant Evening Gown', description: 'A stunning floor-length gown perfect for formal occasions..', price: 40.00, salePrice: 80.00 },
     { id: 2, name: 'Summer Floral Dress', description: 'A light and breezy dress with a vibrant floral pattern..', price: 20.00, salePrice: 18.00 },
@@ -96,6 +101,10 @@ function App() {
           ))}
         </div>
       </div>
+      {/* Footer */}
+      <footer>
+        <p>© 2024 Your Website</p>
+      </footer>
     </div>
   );
 }
