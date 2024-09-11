@@ -1,8 +1,21 @@
-# React + Vite
+***React Bootstrap E-commerce App***
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple e-commerce homepage built using React and Bootstrap. 
+It displays a list of products with features such as adding/removing items from a shopping cart and a styled interface using Bootstrap.
 
-Currently, two official plugins are available:
+Features:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Display a list of products with descriptions and sale prices.
+Add or remove products from the shopping cart.
+Navigation bar with links and a cart count display.
+Full-screen responsive layout using Bootstrap and custom CSS.
+
+1. Clone the Repository
+```bash
+git clone https://github.com/your-username/react-bootstrap-ecommerce-app.git
+cd react-bootstrap-ecommerce-app
+
+2.Install Dependencies
+npm install --- npm run dev
+
+
