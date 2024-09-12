@@ -10,6 +10,8 @@ Add or remove products from the shopping cart.
 Navigation bar with links and a cart count display.
 Full-screen responsive layout using Bootstrap and custom CSS.
 
+live demo ==>https://reactshopcarttask.netlify.app/
+
 1. Clone the Repository
 ```bash
 git clone https://github.com/your-username/react-bootstrap-ecommerce-app.git
